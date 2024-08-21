@@ -1,57 +1,49 @@
-# Housing Prices Analysis and Visualization
-
-This project involves analyzing housing price data from the OECD database and visualizing various aspects of the housing market across different countries, with a focus on Türkiye. The data manipulation and visualization processes involve the following steps:
-
-1- Data Import and Initial Exploration:
-
-- Import the dataset containing housing prices from the OECD database using Pandas.
-- Conduct an initial exploration by displaying the first few rows and checking for missing values in the dataset.
+# International Housing and Rental Trends: An In-Depth Exploration with Emphasis on Türkiye
 
 
-2- Data Cleaning and Preparation:
+Introduction
 
-- Select relevant columns, including Reference area, Measure, TIME_PERIOD, and OBS_VALUE.
-- Filter out irrelevant data, such as records for a specific region (e.g., Israel).
-- Sort the data by country (Reference area) and time period (TIME_PERIOD).
+This project provides a comprehensive analysis of housing and rental prices across various countries, with a special focus on Türkiye. Using multivariate data from the OECD Statistical Database, we explore trends from 1994 to 2023. The analysis covers key metrics such as real house price indices, price-to-income ratios, rent prices, and price-to-rent ratios.
 
 
-3- Calculating Year-Over-Year Percentage Change:
+Objectives
 
-- Compute the year-over-year percentage change in housing prices for each country.
-- Add a new column PCT_CHANGE to store these percentage changes.
-
-
-4- Exploring Housing Price Measures:
-
-- Identify unique measures in the dataset, such as 'Real house price indices' and 'Rent prices'.
-- Group and analyze data to identify the highest and lowest housing prices for each year across different countries.
+1- Exploratory Data Analysis: Identify trends and patterns in Türkiye's housing and renting prices.
+2- Comparison with the United States: Contrast Türkiye’s housing market trends with those of the U.S. to uncover similarities and differences.
+3- Temporal Analysis: Track changes in housing and renting prices over time in Türkiye to spot significant trends or fluctuations.
 
 
-5- Country-Specific Analysis:
+Dataset Overview
 
-- Focus on specific countries, such as Türkiye, and analyze their housing price indices over time.
-- Pivot the data to create a comprehensive view of various measures (e.g., price-to-income ratio, rent prices).
-
-
-6- Data Visualization:
-
-- Create visualizations to present insights, including:
-- Bar Plots: Display top ten countries with the highest cumulative change in housing prices.
-- Histograms: Show the distribution of rent prices.
-- Line and Area Plots: Track the evolution of housing measures over time in specific countries.
-- Pie Charts: Illustrate the ratio of increases and decreases in real house price indices in Türkiye.
+The dataset used in this project consists of annual indices adjusted for seasonality, with 2015 as the base year. It is a valuable resource for understanding housing market dynamics and socioeconomic trends in Türkiye and beyond.
 
 
-7- Country-Specific Detailed Comparisons:
+Data Manipulation Tasks
 
-- Compare housing price indices and rent prices between Türkiye and the Euro area, and between Romania and Portugal.
-- Analyze the data across different years and filter out specific periods where data is lacking.
-
-
-8- Cumulative Analysis:
-
-- Calculate and plot the cumulative sum of various housing measures over time for Türkiye.
-- Evaluate the number of years with increases versus decreases in housing prices, represented in a pie chart.
+- Loading the Data: Data was loaded and preprocessed using the Pandas library.
+- Cleaning the Data: Unnecessary columns were removed, and missing values were handled.
+- Enhancing Analysis: New columns like “PCT_CHANGE” were added to calculate year-over-year percentage changes in housing prices.
+- Grouping and Aggregation: Data was grouped by country for further analysis, with a focus on Türkiye.
 
 
-This project leverages Python libraries such as Pandas, NumPy, Matplotlib, and Seaborn to clean, analyze, and visualize the data, providing comprehensive insights into housing price trends across multiple countries.
+Key Findings
+
+- Top Countries by Housing Price Change: Türkiye experienced the largest cumulative price growth, followed by Romania and Latvia.
+- Price-to-Income Ratio: Significant increases in this ratio were observed in some countries, signaling affordability challenges.
+- Türkiye’s Housing Measures: All housing measures in Türkiye showed an upward trend, with a significant spike after 2021.
+
+
+Visualizations
+
+The project includes various visualizations to illustrate key findings:
+
+- Top 10 Countries by Housing Price Change: Bar plot highlighting countries with the highest cumulative price growth.
+- Rent Price Distribution: Histogram showing the distribution of rent prices across countries.
+- Price-to-Income Ratio in 2023: Analysis of housing affordability across different nations.
+- Türkiye vs. Euro Area: Comparison of real house price indices and rent prices between Türkiye and the Euro Area.
+- Year-over-Year Real House Price Indices in Türkiye: Pie chart showing the ratio of years with increasing versus decreasing house prices.
+
+
+Conclusion
+
+This analysis provides valuable insights into the housing market, particularly in Türkiye. By understanding these trends, policymakers, researchers, and stakeholders can make informed decisions to address housing challenges and promote sustainable development.
