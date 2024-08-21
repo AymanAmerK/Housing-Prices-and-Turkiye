@@ -9,7 +9,9 @@ This project provides a comprehensive analysis of housing and rental prices acro
 Objectives
 
 1- Exploratory Data Analysis: Identify trends and patterns in Türkiye's housing and renting prices.
+
 2- Comparison with the United States: Contrast Türkiye’s housing market trends with those of the U.S. to uncover similarities and differences.
+
 3- Temporal Analysis: Track changes in housing and renting prices over time in Türkiye to spot significant trends or fluctuations.
 
 
