@@ -34,9 +34,13 @@ Data Manipulation Tasks
 
 Key Findings
 
-- Top Countries by Housing Price Change: Türkiye experienced the largest cumulative price growth, followed by Romania and Latvia.
-- Price-to-Income Ratio: Significant increases in this ratio were observed in some countries, signaling affordability challenges.
-- Türkiye’s Housing Measures: All housing measures in Türkiye showed an upward trend, with a significant spike after 2021.
+- Türkiye experienced the highest cumulative housing price growth (around 240%) among analyzed countries from 2013 to 2023.
+- Most countries' rent indices cluster in the 80-150 range relative to 2015, but some markets (like Türkiye) saw extreme rent inflation.
+- Price-to-income ratios in 2023 varied significantly across countries, with Portugal showing a 50% increase and Romania a 40% decrease compared to 2015 levels.
+- In Türkiye, all housing measures (price-to-rent ratio, real house price index, and rent prices) showed an upward trend, with significant spikes after 2021.
+- Türkiye's housing market experienced more volatility and rapid growth compared to the Euro area, especially after 2020.
+- Rent prices in Türkiye increased dramatically, reaching nearly four times the 2015 levels by 2023.
+- Real House Price Indices in Türkiye increased in approximately 69% of the years analyzed.
 
 
 
